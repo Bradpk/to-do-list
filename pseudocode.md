@@ -1,8 +1,8 @@
-DESCRIPTION
+DESCRIPTION:
 Create an online to-do list manager application.
 
 
-MoSCoW
+MoSCoW:
 
 Must Have: 
 Dynamically render the content with React using components
@@ -33,6 +33,18 @@ Laser Beams
 
 
 ATOMIC DESIGN: 
+
+Atoms: 
+
+Molecules: 
+
+Organisms: 
+
+Templates: 
+
+Pages: 
+
+
 
 
 QUESTIONS: 
