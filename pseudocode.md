@@ -45,18 +45,39 @@ Templates:
 Pages: 
 
 
+KANBAN:
+
+As a user I need to view my to do list items
+As a user I need to be able to check off an item as completed
+As a user I need to view if an item has been completed
+As a user I need to view if an item is not completed
+As a user I need to be able to delete items 
+As a user I need to be able to view the updated list after deleting items 
+As a user I need to be able to delete all items to reset the list 
 
 
 QUESTIONS: 
+What components will I need? 
+Should I be nesting components in other components and if so which ones? 
+How do I update the display using useState?
+What's all this localstorage business about? 
 
 
-PROCEDURAL: 
+STEP BY STEP: 
+// User Travels To Page
+// Page displays an input field 
+// User enter their "to do" items into the input field 
+// Items are displayed in a list
+// Items can be added, ticked off, deleted one by one, or all at once
 
 
-FUNCTIONAL: 
+VARIABLES/COMPONENTS: 
 
 
-OOP:
+FUNCTIONS:
+
+
+OBJECTS:
 
 
 
