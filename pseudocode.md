@@ -71,10 +71,12 @@ STEP BY STEP:
 // Items can be added, ticked off, deleted one by one, or all at once
 
 
-VARIABLES/COMPONENTS: 
+VARIABLES: 
 
 
-FUNCTIONS:
+
+FUNCTIONS/COMPONENTS:
+
 
 
 OBJECTS:
