@@ -1,5 +1,7 @@
 DESCRIPTION: <br>
+
 Create an online to-do list manager application.<br>
+
 ------------------------------------------------
 MoSCoW:<br>
 
