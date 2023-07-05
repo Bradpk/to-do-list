@@ -1,15 +1,16 @@
 import React, {useState} from 'react'
 
 function InputComponent() {
-    const [input, setInput] = useState('')
+    const [userInput, setUserInput] = useState('')
 
-    const handleChange = (e) => {
-        setInput(e.target.value)
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
     }
 
     return (
         <div>
-<form className='toDoForm'>
+<form className='toDoForm' onSubmit={handleSubmit}>
     <input type='text'></input>
     <button>Add Item</button>
 </form>
