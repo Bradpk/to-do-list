@@ -119,6 +119,7 @@ User enters relevant information <br>
 RENDER: Relevant information is displayed on the screen <br>
 
 END: <br>
+
 ------------------------------------------------
 FUNCTIONS:<br>
 function HandleInput - (To retrieve formatted information the user put into the input box) <br>
