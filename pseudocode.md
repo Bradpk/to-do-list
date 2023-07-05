@@ -35,16 +35,13 @@ Laser Beams
 ATOMIC DESIGN: 
 
 Atoms: 
-h1, input box, button, p 
+h1, input box, input button, p, delete button for each list item, clear all button
 
 Molecules: 
 Form box: input & button
+List: To Do Items & corrisponding buttons 
 
 Organisms: 
-
-Templates: 
-
-Pages: 
 
 
 KANBAN:
@@ -65,25 +62,42 @@ How do I update the display using useState?
 What's all this localstorage business about? 
 
 
-STEP BY STEP: 
+PROCEDURAL: 
+BEGIN
 // User Travels To Page
 // Page displays an input field 
 // User enter their "to do" items into the input field 
 // Items are displayed in a list
 // Items can be added, ticked off, deleted one by one, or all at once
+END
 
 
-VARIABLES: 
+INIT: 
+Import react 
+Import bootstrap 
 
 
+FUNCTIONS:
 
-FUNCTIONS/COMPONENTS:
 
-Header: 
+COMPONENTS: 
 
-Input Box: 
+Header Component:
+import react
 
-List: 
+InputBox Component: 
+Import react and useState 
+State: State declaration for keeping track of user inputs
+Functions: Handleinput, to use the user input as data to be added to the list
+Event Handlers: Click handler to be connected to the button next to button next to input box
+
+List Component: 
+Import react and useState 
+Import InputBox Component 
+State: State declaration for keeping track of list items
+
+App Component: 
+Import react
 
 
 OBJECTS:
