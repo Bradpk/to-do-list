@@ -102,6 +102,12 @@ function DeleteItem - (To delete an an item from the list)
 
 function DeleteAll - (To remove ALL the items from the list)
 
+function ViewAll - (To change the UI list to display All items) 
+
+function ViewCompleted - (To change the UI list to display the completed items) 
+
+function ViewNotCompleted - (To change the UI list to display the not completed items) 
+
 ------------------------------------------------
 COMPONENTS: 
 
