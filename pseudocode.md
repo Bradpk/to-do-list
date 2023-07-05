@@ -59,8 +59,7 @@ Should I be nesting components in other components and if so which ones?
 How do I update the display using useState?
 What's all this localstorage business about? 
 ------------------------------------------------
-PROCEDURAL: 
-BEGIN
+STEP BY STEP: 
 // User Travels To Page
 // Page displays an input field 
 // User enter their "to do" items into the input field 
@@ -68,16 +67,17 @@ BEGIN
 // Items are displayed in a list
 // Items can be added, ticked off, deleted one by one, or all at once
 // List can be filitered to view ALL, Completed and Not Completed items
-END
 ------------------------------------------------
+PROCEDURAL 
+
+BEGIN
+
 INIT: 
 Import react 
 Import bootstrap 
-
 Variable to store ALL items 
 Variable to store completed items
 Variable to store incompleted items 
-
 Title
 Input Box
 Input Button 
@@ -86,9 +86,16 @@ Completed Button
 Not Completed Button 
 Delete All Button 
 Delete Button 
+
+INPUT: 
+User enters relevant information 
+
+RENDER: Relevant information is displayed on the screen 
+
+END: 
 ------------------------------------------------
 FUNCTIONS:
-function HandleInput - (To retrieve information the user put into the input box) 
+function HandleInput - (To retrieve formatted information the user put into the input box) 
 
 function AddItem - (To add new items to the list)
 
@@ -107,6 +114,8 @@ function ViewAll - (To change the UI list to display All items)
 function ViewCompleted - (To change the UI list to display the completed items) 
 
 function ViewNotCompleted - (To change the UI list to display the not completed items) 
+
+function LocalStoreage - (To store the information)
 
 ------------------------------------------------
 COMPONENTS: 
@@ -142,9 +151,6 @@ Functions: addItem, to add item using the input box component
 
 APP COMPONENT:
 Import react
-
-------------------------------------------------
-OOP:
 
 
 
