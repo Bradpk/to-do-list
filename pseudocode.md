@@ -69,25 +69,34 @@ END
 INIT: 
 Import react 
 Import bootstrap 
+
+Variable to store ALL items 
+Variable to store completed items
+Variable to store incompleted items 
 ------------------------------------------------
 FUNCTIONS:
-function HandleInput - 
+function HandleInput - (To retrieve information the user put into the input box) 
 
-function AddItem - 
+function AddItem - (To add new items to the list)
 
-function checkItem - 
+function CheckItem - (To display an item as completed) 
 
-function getID - 
+function CheckAll - (To toggle between selecting ALL items as either completed or not completed) 
 
-function DeleteItem - 
+function getID - (To give each item a unique ID)
 
-function DeleteAll - 
+function DeleteItem - (To delete an an item from the list)
+
+function DeleteAll - (To remove ALL the items from the list) 
 
 ------------------------------------------------
 COMPONENTS: 
 
 HEADER COMPONENT:
-import react
+import react and useState
+import inputbox component 
+
+State: State declaration for keeping track of id and value
 
 
 INPUT COMPONENT: 
@@ -104,9 +113,8 @@ Connected to?
 
 
 LIST COMPONENT:
-Import react and useState 
-
-Import InputBox Component 
+import react and useState 
+import InputBox Component 
 
 State: State declaration for keeping track of list items
 
