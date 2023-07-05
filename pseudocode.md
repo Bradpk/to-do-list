@@ -29,6 +29,7 @@ Automatically mark to-dos with a new status based on done/not done and the time 
 
 Won't Have:<br>
 Laser Beams<br>
+
 ------------------------------------------------
 ATOMIC DESIGN: <br>
 
@@ -40,33 +41,56 @@ Form box: input & button<br>
 List: To Do Items & corrisponding buttons <br>
 
 Organisms: <br>
+
 ------------------------------------------------
 KANBAN:<br>
 
 As a user I need to be able to enter an item into my to do list<br>
+
 As a user I need to view my to do list items<br>
+
 As a user I need to be able to check off an item as completed<br>
+
 As a user I need to view if an item has been completed<br>
+
 As a user I need to view if an item is not completed<br>
+
 As a user I need to be able to delete items <br>
+
 As a user I need to be able to view the updated list after deleting items <br>
+
 As a user I need to be able to delete all items to reset the list <br>
+
 As a user I need to be able to view the list with ALL items, completed items and not completed items<br>
+
 ------------------------------------------------
 QUESTIONS: <br>
+
 What components will I need? <br>
+
 Should I be nesting components in other components and if so which ones? <br>
+
 How do I update the display using useState?<br>
+
 What's all this localstorage business about? <br>
+
 ------------------------------------------------
 STEP BY STEP: <br>
+
 // User Travels To Page<br>
+
 // Page displays an input field <br>
+
 // User enter their "to do" items into the input field <br>
+
 // User clicks button to add it to a list<br>
+
 // Items are displayed in a list<br>
+
 // Items can be added, ticked off, deleted one by one, or all at once<br>
+
 // List can be filitered to view ALL, Completed and Not Completed items<br>
+
 ------------------------------------------------
 PROCEDURAL <br>
 
