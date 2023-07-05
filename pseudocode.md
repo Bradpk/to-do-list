@@ -95,6 +95,7 @@ List Component:
 Import react and useState 
 Import InputBox Component 
 State: State declaration for keeping track of list items
+Functions: addItem, to add item using the input box component
 
 App Component: 
 Import react
