@@ -78,6 +78,17 @@ Import bootstrap
 
 
 FUNCTIONS:
+function HandleInput - 
+
+function AddItem - 
+
+function checkItem - 
+
+function getID - 
+
+function DeleteItem - 
+
+function DeleteAll - 
 
 
 COMPONENTS: 
