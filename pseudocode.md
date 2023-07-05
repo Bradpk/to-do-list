@@ -43,6 +43,7 @@ Organisms:
 ------------------------------------------------
 KANBAN:
 
+As a user I need to be able to enter an item into my to do list
 As a user I need to view my to do list items
 As a user I need to be able to check off an item as completed
 As a user I need to view if an item has been completed
@@ -50,6 +51,7 @@ As a user I need to view if an item is not completed
 As a user I need to be able to delete items 
 As a user I need to be able to view the updated list after deleting items 
 As a user I need to be able to delete all items to reset the list 
+As a user I need to be able to view the list with ALL items, completed items and not completed items
 ------------------------------------------------
 QUESTIONS: 
 What components will I need? 
@@ -62,8 +64,10 @@ BEGIN
 // User Travels To Page
 // Page displays an input field 
 // User enter their "to do" items into the input field 
+// User clicks button to add it to a list
 // Items are displayed in a list
 // Items can be added, ticked off, deleted one by one, or all at once
+// List can be filitered to view ALL, Completed and Not Completed items
 END
 ------------------------------------------------
 INIT: 
@@ -125,7 +129,7 @@ APP COMPONENT:
 Import react
 
 ------------------------------------------------
-OBJECTS: 
+EVENT HANDLERS: 
 
 
 
