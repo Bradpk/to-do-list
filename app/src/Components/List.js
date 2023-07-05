@@ -1,6 +1,6 @@
-import React from 'react'
+import React, {useState} from 'react'
 
-function List() {
+function ListComponent() {
     return (
         <div>
 
@@ -8,4 +8,4 @@ function List() {
     )
 }
 
-export default List
+export default ListComponent

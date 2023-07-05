@@ -1,11 +1,15 @@
-import React from 'react'
+import React, {useState} from 'react'
 
-function Input() {
+function InputComponent() {
+    const [input, setInput] = useState('')
     return (
         <div>
-
+<form className='toDoForm'>
+    <input type='text'></input>
+    <button>Add Item</button>
+</form>
         </div>
     )
 }
 
-export default Input
+export default InputComponent
