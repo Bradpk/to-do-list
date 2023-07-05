@@ -129,7 +129,7 @@ APP COMPONENT:
 Import react
 
 ------------------------------------------------
-EVENT HANDLERS: 
+OOP:
 
 
 
