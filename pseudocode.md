@@ -35,8 +35,10 @@ Laser Beams
 ATOMIC DESIGN: 
 
 Atoms: 
+h1, input box, button, p 
 
 Molecules: 
+Form box: input & button
 
 Organisms: 
 
@@ -77,6 +79,11 @@ VARIABLES:
 
 FUNCTIONS/COMPONENTS:
 
+Header: 
+
+Input Box: 
+
+List: 
 
 
 OBJECTS:
