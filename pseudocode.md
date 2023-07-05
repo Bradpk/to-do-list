@@ -70,9 +70,11 @@ QUESTIONS: <br>
 
 What components will I need? <br>
 
+What functions will I need? <br>
+
 Should I be nesting components in other components and if so which ones? <br>
 
-How do I update the display using useState?<br>
+How do I update the display using the useState declarations?<br>
 
 What's all this localstorage business about? <br>
 
@@ -142,7 +144,7 @@ function ViewCompleted - (To change the UI list to display the completed items) 
 
 function ViewNotCompleted - (To change the UI list to display the not completed items) <br>
 
-function LocalStoreage - (To store the information)<br>
+function LocalStoreage - (To store the information) <- Still confuzzled on the local storage stuff <br>
 
 ------------------------------------------------
 OBJECTS: <br>
