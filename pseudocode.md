@@ -151,12 +151,16 @@ OBJECTS: <br>
 COMPONENTS: <br>
 
 HEADER COMPONENT:<br>
+useState declarations for keeping track of changes and connecting them with event handlers that alter the JSX to render their display
 
 INPUT COMPONENT: <br>
+useState declarations for keeping track of changes and connecting them with event handlers that alter the JSX to render their display
 
 LIST COMPONENT:<br>
+useState declarations for keeping track of changes and connecting them with event handlers that alter the JSX to render their display
 
 APP COMPONENT:
+All other components go inside this one
 
 
 
