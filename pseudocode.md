@@ -77,6 +77,15 @@ Import bootstrap
 Variable to store ALL items 
 Variable to store completed items
 Variable to store incompleted items 
+
+Title
+Input Box
+Input Button 
+All Button 
+Completed Button 
+Not Completed Button 
+Delete All Button 
+Delete Button 
 ------------------------------------------------
 FUNCTIONS:
 function HandleInput - (To retrieve information the user put into the input box) 
@@ -91,7 +100,7 @@ function getID - (To give each item a unique ID)
 
 function DeleteItem - (To delete an an item from the list)
 
-function DeleteAll - (To remove ALL the items from the list) 
+function DeleteAll - (To remove ALL the items from the list)
 
 ------------------------------------------------
 COMPONENTS: 
