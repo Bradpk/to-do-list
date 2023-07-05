@@ -1,7 +1,6 @@
 DESCRIPTION:
 Create an online to-do list manager application.
-
-
+------------------------------------------------
 MoSCoW:
 
 Must Have: 
@@ -30,8 +29,7 @@ Automatically mark to-dos with a new status based on done/not done and the time 
 
 Won't Have:
 Laser Beams
-
-
+------------------------------------------------
 ATOMIC DESIGN: 
 
 Atoms: 
@@ -42,8 +40,7 @@ Form box: input & button
 List: To Do Items & corrisponding buttons 
 
 Organisms: 
-
-
+------------------------------------------------
 KANBAN:
 
 As a user I need to view my to do list items
@@ -53,15 +50,13 @@ As a user I need to view if an item is not completed
 As a user I need to be able to delete items 
 As a user I need to be able to view the updated list after deleting items 
 As a user I need to be able to delete all items to reset the list 
-
-
+------------------------------------------------
 QUESTIONS: 
 What components will I need? 
 Should I be nesting components in other components and if so which ones? 
 How do I update the display using useState?
 What's all this localstorage business about? 
-
-
+------------------------------------------------
 PROCEDURAL: 
 BEGIN
 // User Travels To Page
@@ -70,13 +65,11 @@ BEGIN
 // Items are displayed in a list
 // Items can be added, ticked off, deleted one by one, or all at once
 END
-
-
+------------------------------------------------
 INIT: 
 Import react 
 Import bootstrap 
-
-
+------------------------------------------------
 FUNCTIONS:
 function HandleInput - 
 
@@ -90,29 +83,41 @@ function DeleteItem -
 
 function DeleteAll - 
 
-
+------------------------------------------------
 COMPONENTS: 
 
-Header Component:
+HEADER COMPONENT:
 import react
 
-InputBox Component: 
-Import react and useState 
-State: State declaration for keeping track of user inputs
-Functions: Handleinput, to use the user input as data to be added to the list
-Event Handlers: Click handler to be connected to the button next to button next to input box
 
-List Component: 
+INPUT COMPONENT: 
 Import react and useState 
+
+State: State declaration for keeping track of user inputs
+Connected to? 
+
+Functions: Handleinput, to use the user input as data to be added to the list
+Connected to? 
+
+Event Handlers: Click handler to be connected to the button next to button next to input box
+Connected to? 
+
+
+LIST COMPONENT:
+Import react and useState 
+
 Import InputBox Component 
+
 State: State declaration for keeping track of list items
+
 Functions: addItem, to add item using the input box component
 
-App Component: 
+
+APP COMPONENT:
 Import react
 
-
-OBJECTS:
+------------------------------------------------
+OBJECTS: 
 
 
 
