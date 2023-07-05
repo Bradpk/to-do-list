@@ -145,6 +145,9 @@ function ViewNotCompleted - (To change the UI list to display the not completed 
 function LocalStoreage - (To store the information)<br>
 
 ------------------------------------------------
+OBJECTS: <br>
+
+------------------------------------------------
 COMPONENTS: <br>
 
 HEADER COMPONENT:<br>
