@@ -148,35 +148,12 @@ function LocalStoreage - (To store the information)<br>
 COMPONENTS: <br>
 
 HEADER COMPONENT:<br>
-import react and useState<br>
-import inputbox component <br>
-
-State: State declaration for keeping track of id and value<br>
-
 
 INPUT COMPONENT: <br>
-Import react and useState <br>
-
-State: State declaration for keeping track of user inputs<br>
-Connected to? <br>
-
-Functions: Handleinput, to use the user input as data to be added to the list<br>
-Connected to? <br>
-
-Event Handlers: Click handler to be connected to the button next to button next to input box<br>
-Connected to? <br>
 
 LIST COMPONENT:<br>
-import react and useState <br>
-import InputBox Component <br>
-
-State: State declaration for keeping track of list items<br>
-
-Functions: addItem, to add item using the input box component<br>
-
 
 APP COMPONENT:
-Import react
 
 
 
