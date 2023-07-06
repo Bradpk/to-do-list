@@ -3,16 +3,14 @@ import React, { useState } from 'react'
 function InputComponent(props) {
     const [userInput, setUserInput] = useState('')
 
-
-
     const handleSubmit = (e) => {
         e.preventDefault()
 
-        // props.onSubmit({
-        //     id: Math.floor(Math.random() * 100000),
-        //     text: userInput
-        // })
-setUserInput('Cat')
+        props.onSubmit({
+            id: Math.floor(Math.random() * 100000),
+            text: userInput
+        })
+setUserInput('')
     }
 
     const handleChange = (e) => {

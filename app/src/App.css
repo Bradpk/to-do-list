@@ -1,5 +1,8 @@
 .App {
   text-align: center;
- background-color: rgb(245, 229, 229);
- margin: 5%;
+  background-image: linear-gradient(to bottom right, rgb(6, 24, 96), rgb(30, 18, 92));
+  margin: 5% 25% 5% 25%;
+  padding: 5%;
+  font-family: fantasy;
+  color: beige;
 }
