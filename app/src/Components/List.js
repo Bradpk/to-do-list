@@ -9,10 +9,20 @@ function ListComponent() {
        setToDoList(newItems)
     }
 
+    const clearList = () => {
+        setToDoList([]);
+      };
+    
+
     return (
         <div>
             <InputComponent onSubmit={addItem}/>
-           
+            <ul>
+        {toDoList.map((item) => (
+          <li key={item.id}>{item.text}</li>
+        ))}
+      </ul>
+      <button onClick={clearList}>Clear</button>
         </div>
     )
 }
