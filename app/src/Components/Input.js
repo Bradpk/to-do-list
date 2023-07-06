@@ -3,20 +3,23 @@ import React, { useState } from 'react'
 function InputComponent(props) {
     const [userInput, setUserInput] = useState('')
 
-// Prevents the automatic reload, provides input with a unique ID, resets userInput back to empty string
+    // Prevents the automatic reload, provides input with a unique ID, resets userInput back to empty string
     const handleSubmit = (e) => {
         e.preventDefault()
 
-        props.onSubmit({
-            id: Math.floor(Math.random() * 100000),
-            text: userInput
-        })
-setUserInput('')
+        if (userInput !== '') {
+            props.onSubmit({
+                id: Math.floor(Math.random() * 100000),
+                text: userInput,
+                completed: false
+            })
+            setUserInput('')
+        }
     }
 
-// Changes the userInput to the value entered in the input box
+    // Changes the userInput to the value entered in the input box
     const handleChange = (e) => {
-setUserInput(e.target.value)
+        setUserInput(e.target.value)
     }
 
     return (
