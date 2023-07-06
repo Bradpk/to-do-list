@@ -5,15 +5,18 @@ function ListComponent() {
   const [toDoList, setToDoList] = useState([]);
   const [currentView, setCurrentView] = useState('All');
 
+// Add Item Function
   const addItem = (item) => {
     const newItems = [item, ...toDoList];
     setToDoList(newItems);
   };
 
+// Clear List Function 
   const clearList = () => {
     setToDoList([]);
   };
 
+// Item Completion Function 
   const toggleItemCompletion = (itemId) => {
     const updatedItems = toDoList.map((item) => {
       if (item.id === itemId) {
@@ -27,6 +30,7 @@ function ListComponent() {
     setToDoList(updatedItems);
   };
 
+// Three View Function
   const filterListByView = () => {
     if (currentView === 'All') {
       return toDoList;
@@ -43,7 +47,7 @@ function ListComponent() {
       <div>
         <button onClick={() => setCurrentView('All')}>Show All</button>
         <button onClick={() => setCurrentView('Completed')}>Completed</button>
-        <button onClick={() => setCurrentView('To-Do')}>To-Do</button>
+        <button onClick={() => setCurrentView('To-Do')}>Not Completed</button>
         <button onClick={clearList}>Clear All</button>
       </div>
       <ul>
