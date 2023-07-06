@@ -15,4 +15,17 @@ font-size: 30px;
 margin: 2%;
 }
 
+.buttons button{
+padding: 1%;
+}
 
+.clear {
+  background-color: rgb(195, 0, 0);
+  margin-left: 1%;
+  color: beige;
+}
+.buttons button.selected {
+  background-color: #00ff04; 
+  color: #000; 
+  
+}

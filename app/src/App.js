@@ -7,10 +7,12 @@ import ListComponent from './Components/List';
 
 function App() {
   return (
+    
     <div className="App">
       <HeaderComponent />
     <ListComponent />
     </div>
+   
   );
 }
 
