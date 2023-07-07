@@ -3,24 +3,24 @@
   background-image: linear-gradient(to bottom right, rgb(44, 84, 157), rgb(26, 17, 70));
   margin: 5% 25% 5% 25%;
   padding: 3%;
-  font-family:serif;
+  font-family: serif;
   color: beige;
   border-radius: 5%;
 }
 
 .list {
-list-style-type: none;
-cursor: pointer;
-font-size: 30px;
-margin: 2%;
-font-size: 35px;
+  list-style-type: none;
+  cursor: pointer;
+  font-size: 30px;
+  margin: 2%;
+  font-size: 35px;
 }
 
-.buttons button{
-padding: 1%;
-border: none;
-margin:5px;
-border-radius:5%
+.buttons button {
+  padding: 1%;
+  border: none;
+  margin: 5px;
+  border-radius: 5%
 }
 
 .clear {
@@ -28,19 +28,20 @@ border-radius:5%
   color: beige;
   border: none
 }
+
 .buttons button.selected {
-  background-color: #00ff04; 
-  color: #000; 
+  background-color: #00ff04;
+  color: #000;
   border: none
 }
 
 .delete {
-  color:beige;
-  background-color:  rgb(211, 0, 0);
+  color: beige;
+  background-color: rgb(211, 0, 0);
   margin-left: 50px;
   border-radius: 50%;
   border: none;
-  height: 30px;
-  width: 30px;
-  font-size: 20px;
+  height: 25px;
+  width: 25px;
+  font-size: 15px;
 }
