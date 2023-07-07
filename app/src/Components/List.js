@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
 import InputComponent from './Input';
-
+//---------------------------------------------------------------------------------------------------------------------
 function ListComponent() {
     const [toDoList, setToDoList] = useState([]);
     const [currentView, setCurrentView] = useState('All');
-  
+//---------------------------------------------------------------------------------------------------------------------
     const addItem = (item) => {
       setToDoList([item, ...toDoList]);
     };
-  
+//---------------------------------------------------------------------------------------------------------------------
     const deleteItem = (itemId) => {
       const updatedItems = toDoList.filter((item) => item.id !== itemId);
       setToDoList(updatedItems);
     };
-  
+//---------------------------------------------------------------------------------------------------------------------
     const toggleItemCompletion = (itemId) => {
       const updatedItems = toDoList.map((item) => {
         if (item.id === itemId) {
@@ -26,7 +26,7 @@ function ListComponent() {
       });
       setToDoList(updatedItems);
     };
-  
+//---------------------------------------------------------------------------------------------------------------------
     const filterListByView = () => {
       if (currentView === 'All') {
         return toDoList;
@@ -36,11 +36,11 @@ function ListComponent() {
         return toDoList.filter((item) => !item.completed);
       }
     };
-  
+//---------------------------------------------------------------------------------------------------------------------
     const clearList = () => {
       setToDoList([]);
     };
-  
+//---------------------------------------------------------------------------------------------------------------------
     return (
       <div>
         <InputComponent onSubmit={addItem} />
@@ -87,6 +87,5 @@ function ListComponent() {
       </div>
     );
   }
-  
-
+//---------------------------------------------------------------------------------------------------------------------
 export default ListComponent;

@@ -1,11 +1,10 @@
 import React, { useState } from 'react'
-
+//---------------------------------------------------------------------------------------------------------------------
 function InputComponent({ onSubmit }) {
     const [userInput, setUserInput] = useState('');
-  
+//---------------------------------------------------------------------------------------------------------------------
     const handleInput = (e) => {
       e.preventDefault();
-  
       if (userInput.trim() !== '') {
         onSubmit({
           id: Math.floor(Math.random() * 100000),
@@ -15,11 +14,11 @@ function InputComponent({ onSubmit }) {
         setUserInput('');
       }
     };
-  
+//---------------------------------------------------------------------------------------------------------------------
     const handleChange = (e) => {
       setUserInput(e.target.value);
     };
-  
+//---------------------------------------------------------------------------------------------------------------------
     return (
       <div>
         <form onSubmit={handleInput}>
@@ -29,6 +28,5 @@ function InputComponent({ onSubmit }) {
       </div>
     );
   }
-  
-
+//---------------------------------------------------------------------------------------------------------------------
 export default InputComponent
