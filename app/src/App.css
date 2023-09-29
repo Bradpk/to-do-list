@@ -4,11 +4,11 @@ body{
 
 .App {
   text-align: center;
-  background-image: linear-gradient(to bottom right, rgb(44, 84, 157), rgb(26, 17, 70));
-  margin: 5% 25% 5% 25%;
+  background-image: linear-gradient(to bottom right, rgb(42, 59, 140), rgb(0, 0, 0));
+  margin: 0% 25% 0% 25%;
   padding: 3%;
-  font-family: serif;
-  color: beige;
+  font-family:'Courier New', Courier, monospace;
+  color: rgb(255, 255, 255);
   border-radius: 5%;
 }
 

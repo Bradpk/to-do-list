@@ -13,6 +13,7 @@ code {
     monospace;
 }
 
-/* * {
-  background-color: rgb(130, 80, 80);
-} */
+#root {
+  background-color: rgb(214, 241, 248);
+  height: 100vh;
+}
