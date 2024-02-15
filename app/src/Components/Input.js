@@ -22,8 +22,8 @@ function InputComponent({ onSubmit }) {
     return (
         <div>
             <form onSubmit={handleInput}>
-                <input type="text" value={userInput} onChange={handleChange} />
-                <button>Add Item</button>
+                <input className="input" type="text" value={userInput} onChange={handleChange} />
+                <button className='buttontwo'>Add Item</button>
             </form>
         </div>
     );
