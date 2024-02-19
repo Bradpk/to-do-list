@@ -5,7 +5,7 @@
   padding: 3%;
   font-family:'Courier New', Courier, monospace;
   color: rgb(251, 251, 237);
-  border-radius: 3%;
+  border-radius: 2%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,7 +19,7 @@
 .buttontwo {
   padding: 1%;
   border: none;
-  margin: 5px;
+  margin-top: 20px;
   border-radius: 5%
 }
 
