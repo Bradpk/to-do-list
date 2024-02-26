@@ -7,4 +7,5 @@ This project creates a To-Do List that enables users to add various items to a l
 React, 
 JavaScript, 
 HTML, 
-CSS
+CSS,
+Bootstrap
